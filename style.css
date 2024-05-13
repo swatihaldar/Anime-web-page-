@@ -1,0 +1,97 @@
+body {
+    background-image: url("https://e0.pxfuel.com/wallpapers/260/379/desktop-wallpaper-iphone-dark-purple-blur-deep-purple.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+ 
+ .a{
+    font-size: 100px;
+    text-align: center;
+    font-style: oblique;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color:#fff;
+
+    
+}
+.slider{
+    width: 60%;
+    height: 600px;
+    background-image: url("https://repository-images.githubusercontent.com/439247042/90aa04e7-1be0-4d22-a4db-5851dfc031a2");
+    background-size: 100% 100%;
+    animation: changeImage 20s linear infinite;
+    margin: 0 auto;
+} 
+
+@keyframes changeImage{
+    0%{
+        background-image: url("https://wallpapers.com/images/high/naruto-shippuden-naruto-s-comrades-poster-rxxyiybobk8m0q7u.webp");
+    }
+    25%{
+        background-image: url("https://www.godisageek.com/wp-content/uploads/Demon-Slayer-Kimetsu-no-Yaiba-790x444.jpg");
+    }
+    50%{
+        background-image: url("https://pinoygamer.ph/attachments/sla-png.15257/");
+    }
+    75%{
+        background-image: url("https://wallpapers.com/images/hd/one-piece-luffy-and-straw-hat-pirates-c0pujiakubq5rwas.webp");
+    }
+    100%{
+        background-image: url("https://images2.alphacoders.com/131/1319760.jpeg");
+    }
+}
+.b {
+    text-align: center; 
+    margin-top: 20px; 
+    font-size: 40px;
+    font-weight: 900;
+    background-color:plum;
+    margin-bottom: 20px;
+}
+.c {
+    text-align: center; 
+    margin-top: 30px; 
+    font-size: 40px;
+    font-weight: 900;
+    background-color:plum;
+    margin-bottom: 30px;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    display: inline-block; 
+    width: 200px; 
+    height: auto; 
+    margin: 0 10px; 
+}
+
+.image {
+    display: inline-block; 
+    vertical-align: top; 
+    margin: 0 10px; 
+}
+
+.image-name {
+    display: block; 
+    text-align: center; 
+}
+span{
+
+    font-size: 20px;
+    font-weight: bold;
+    color:#fff;
+}
+.d{
+    text-align: center; 
+    margin-top: 30px; 
+    font-size: 30px;
+    font-weight: 900;
+    background-color:plum;
+    margin-bottom: 30px;
+    font-style: italic;
+}
